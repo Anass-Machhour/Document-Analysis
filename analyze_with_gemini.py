@@ -2,7 +2,7 @@ import os
 import time
 from google import genai
 
-apiKey = "AIzaSyAFXEHAl_tHoNdHLmhtXFp0ffrU0LsWRp0"
+apiKey = "your-api-key"
 client = genai.Client(api_key=apiKey)
 
 prompt = '''
